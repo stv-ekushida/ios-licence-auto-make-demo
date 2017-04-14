@@ -1,6 +1,8 @@
 # ios-licence-auto-make-demo
 OSSライセンスを設定画面に自動生成するサンプル<br><br>
 
+![screen shot 2017-04-14 at 13 11 07](https://cloud.githubusercontent.com/assets/9479568/25032971/e3a24706-2113-11e7-98f6-650d61386b27.png)
+
 ## 1. Podfileに下記を追加する
 対象のプロジェクト名を指定すること
 
@@ -11,7 +13,7 @@ FileUtils.cp_r('Pods/Target Support Files/Pods-ios-google-calendar-demo/Pods-<�
 end
 ```
 
-## 2. Settings.bundleのRoot.plist
+## 2. Settings.bundleのRoot.plistを編集する
 
 File > New > File > Resource > Settings Bundleを選択し、Settings.bundleを作成する。　<br>
 Root.plistを下記のように変更する。<br>
@@ -46,11 +48,11 @@ Root.plistを下記のように変更する。<br>
 </plist>
 ```
 
-## 3. Acknowledgements.plist
+## 3. Acknowledgements.plistを作成する
 Root.plistをコピーし、Acknowledgements.plistにリネイムする。<br>
 Acknowledgements.plistの中身は、空にする
 
-## 4. pod install or pod update
+## 4. pod install or pod updateを実行する
 
 ### 参考記事
 http://mzgk.github.io/blog/2014/cocoapods-license-auto-make/

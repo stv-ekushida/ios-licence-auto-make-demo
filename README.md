@@ -13,8 +13,8 @@ end
 
 ## 2. Settings.bundleのRoot.plist
 
-File > New > File > Resource > Settings Bundleを選択し、Settings.bundleを作成する
-Root.plistを下記のように変更する
+File > New > File > Resource > Settings Bundleを選択し、Settings.bundleを作成する。　<br>
+Root.plistを下記のように変更する。<br>
 
 <img width="206" alt="2017-04-14 13 07 28" src="https://cloud.githubusercontent.com/assets/9479568/25032927/6387d964-2113-11e7-9b44-f97c80d1cc4c.png">
 
@@ -47,7 +47,7 @@ Root.plistを下記のように変更する
 ```
 
 ## 3. Acknowledgements.plist
-Root.plistをコピーし、Acknowledgements.plistにリネイムする。
+Root.plistをコピーし、Acknowledgements.plistにリネイムする。<br>
 Acknowledgements.plistの中身は、空にする
 
 ## 4. pod install or pod update

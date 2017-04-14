@@ -1,5 +1,5 @@
 # ios-licence-auto-make-demo
-iOS ライセンスを設定画面に自動生成するサンプル<br><br>
+OSSライセンスを設定画面に自動生成するサンプル<br><br>
 
 ## 1. Podfileに下記を追加する
 対象のプロジェクト名を指定すること
